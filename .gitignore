@@ -1,0 +1,22 @@
+# ── Dependencies ──────────────────────────────────────────────────────────────
+node_modules/
+
+# ── Build output ───────────────────────────────────────────────────────────────
+dist/
+build/
+coverage/
+
+# ── Environment variables (NEVER commit real keys) ─────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Editor / OS artifacts ──────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.log
+*.local
+
+# ── AI Studio internal files (not needed in deployment) ───────────────────────
+metadata.json
+assets/.aistudio/

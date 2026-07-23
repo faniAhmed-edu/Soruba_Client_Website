@@ -1,0 +1,132 @@
+================================================================================
+SORUBA LLC - CONFERBOT KNOWLEDGE BASE
+================================================================================
+
+--------------------------------------------------------------------------------
+1. COMPANY OVERVIEW
+--------------------------------------------------------------------------------
+Business Name: Soruba LLC
+Tagline: IT Managed Services Provider / MSSP
+Location/Headquarters: Oregon, USA (Registered Oregon LLC central headquarters)
+Website: soruballc.com
+
+Description:
+Soruba LLC is an established Oregon-based IT Managed Services Provider (MSSP) and cybersecurity consulting firm. With over a decade of verified service, the company was founded with a clear mission: to bridge the gap between heavy enterprise-grade security structures and the operational budgets of growing organizations. Soruba acts as a long-term strategic technology partner, ensuring local assets remain resilient, secure, and completely optimized. They provide proactive IT management, enterprise-level cybersecurity, cloud solutions, and IT consultancy.
+
+--------------------------------------------------------------------------------
+2. CONTACT INFORMATION
+--------------------------------------------------------------------------------
+Phone: +1 682-414-8516 (Dedicated hotline for Oregon operations support)
+Email: support@soruballc.com (Support reviews and replies within 2 hours on business days)
+Business Hours: Monday – Friday, 09:00 AM – 05:00 PM
+Booking/Forms: Customers can schedule a complimentary IT & Security Risk Assessment via the website's contact form.
+
+--------------------------------------------------------------------------------
+3. CORE SERVICES
+--------------------------------------------------------------------------------
+Soruba offers a comprehensive suite of enterprise-grade IT and security solutions:
+
+1. Managed IT Services
+- 24/7 IT Support & Helpdesk Assistance
+- IT Infrastructure Management & Optimization
+- Cloud Hosting & Seamless Migration (AWS, Azure, GCP)
+- Endpoint Management & Advanced Protection
+- Comprehensive IT Compliance & Security Audits
+
+2. Cyber Security Solutions
+- Managed Detection & Response (MDR)
+- SIEM & Security Operations Center (SOC) as a Service
+- Zero Trust Security Framework Implementation
+- Identity & Access Management (IAM)
+- Ransomware Protection & Threat Intelligence
+
+3. Database Security
+- Real-time SQL injection protection & active blocking
+- Transparent Data Encryption (TDE) for rest and transit
+- Database access audits & anomalous activity alarms
+- Multi-region backup security with cold storage locks
+
+4. Health App Development
+- HIPAA-compliant software development & audit tracing
+- Secure API integrations for Electronic Health Records (EHR)
+- Multi-factor authentication & role-based medical access
+- Penetration-tested healthcare database interfaces
+
+5. Cloud & Network Solutions
+- Network Design, Segmenting & Dynamic Optimization
+- Virtualized & On-Prem Hybrid Data Center Setup
+- Hybrid & Multi-Cloud Integrations (AWS, Azure, Google Cloud)
+- Software-Defined Networking (SDN) Architectures
+- Disaster Recovery & Solid Business Continuity Planning
+
+6. Compliance & Risk Management
+- Audits for HIPAA, NIST, GDPR, CMMC, and PCI-DSS
+- Full Security Risk Assessments & External/Internal Pen Testing
+- DevSecOps pipeline security enforcement
+- Policy & Corporate Governance Framework Implementation
+
+7. Hardware and Software Procurement
+- Comprehensive OEM hardware sourcing with major brands
+- Corporate software licensing management & contract reviews
+- Full technology deployment, configuration, and enrollment
+- End-to-end device lifespan support and hardware decommissioning
+
+--------------------------------------------------------------------------------
+4. THE SORUBA SECURITY LIFECYCLE (PROCESS)
+--------------------------------------------------------------------------------
+Soruba utilizes a proven six-stage framework to ensure continuous protection, optimization, and alignment with business goals:
+01. Discover: Understand Your Business
+02. Assess: Identify Risks & Opportunities
+03. Secure: Strengthen Your Digital Defense
+04. Implement: Deploy With Confidence
+05. Monitor: Maintain Continuous Protection
+06. Optimize: Drive Future Performance
+
+--------------------------------------------------------------------------------
+5. INDUSTRIES SERVED
+--------------------------------------------------------------------------------
+- Healthcare: HIPAA-compliant IT and security solutions that ensure patient data protection and infrastructure security.
+- Government: Secure cloud and endpoint protection compliant with strict government regulations.
+- Finance & Banking: Advanced fraud detection, SIEM analytics, and PCI-DSS/FFIEC compliance.
+- Education: Cybersecurity and IT solutions protecting student data and ensuring FERPA compliance.
+- Enterprise & SMBs: Scalable IT solutions, cloud infrastructure, and proactive IT support.
+
+--------------------------------------------------------------------------------
+6. LEADERSHIP AND TEAM
+--------------------------------------------------------------------------------
+- Aham Reginald Ebere: Co-Founder & Chief Executive Officer. Directs business technology strategy, managed IT & cybersecurity, and executive technology advisory.
+- Cameron Williamson: Scrum Master. Specializes in Agile project coordination, DevOps alignment, and client communication.
+- Leslie Alexander: Engineering Lead. Specializes in cloud architecture, network infrastructure, and system redundancy.
+- Ronald Richards: UI/UX Lead Designer. Specializes in visual design, interactive prototyping, and accessible interfaces.
+- Darrell Steward: Web Engineer. Specializes in React, TypeScript, and web performance optimization.
+
+--------------------------------------------------------------------------------
+7. TECHNOLOGY PARTNERS
+--------------------------------------------------------------------------------
+Soruba holds partnerships with certified vendors and integrations including:
+Microsoft, Amazon Web Services (AWS), Google Cloud, Palo Alto Networks, CrowdStrike, SonicWall, Fortinet, and WatchGuard.
+
+--------------------------------------------------------------------------------
+8. FREQUENTLY ASKED QUESTIONS (FAQS)
+--------------------------------------------------------------------------------
+
+Q: What is included in Soruba’s managed IT services?
+A: Our managed IT services include proactive monitoring, helpdesk support, infrastructure management, endpoint protection, cloud support, compliance guidance, and ongoing technology optimization.
+
+Q: How can Soruba improve our cybersecurity posture?
+A: We help identify risks, implement layered protection, monitor threats, strengthen identity access, protect endpoints, and create response plans to reduce business security exposure. We also implement modern Zero Trust Security frameworks.
+
+Q: Do you support small and medium-sized businesses?
+A: Yes. Soruba provides scalable IT and cybersecurity solutions for SMBs, enterprises, healthcare, government, education, and financial organizations. We bridge the gap between enterprise security needs and SMB budgets.
+
+Q: Can Soruba help with compliance requirements?
+A: Yes. We support compliance needs such as HIPAA, NIST, GDPR, CMMC, PCI-DSS, and full security audit preparation.
+
+Q: How long does it take for support to respond to a ticket?
+A: Our dedicated support team reviews and replies to emails (support@soruballc.com) within 2 hours on standard business days.
+
+Q: Do you provide virtual CISO (vCISO) services?
+A: Yes, Soruba offers virtual CISO advisory services providing on-demand access to executive-level cybersecurity guidance, strategy, and compliance management at a fraction of the cost of a full-time hire.
+
+Q: How do we start an engagement with Soruba?
+A: The best way to begin is by scheduling a complimentary IT & Security Risk Assessment through our website's contact portal. You can also call our 24/7 hotline at +1 682-414-8516.
