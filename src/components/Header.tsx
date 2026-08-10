@@ -42,7 +42,7 @@ export default function Header({ currentPath, onNavigate, onToggleOffcanvas }: H
     { name: "Our Services", path: "/our-services/" },
     { name: "Industries", path: "/industries/" },
     { name: "Blog", path: "/blog/" },
-    { name: "Contact", path: "/contact-2/" }
+    { name: "Contact", path: "/contact/" }
   ];
 
   return (
@@ -69,7 +69,7 @@ export default function Header({ currentPath, onNavigate, onToggleOffcanvas }: H
           {/* Navigation Links (Desktop) */}
           <div className="hidden lg:flex items-center space-x-10">
             {navLinks.map((link) => {
-              const isActive = currentPath === link.path;
+              const isActive = currentPath === link.path || (link.path === "/contact/" && (currentPath === "/contact" || currentPath === "/contact-2" || currentPath === "/contact-2/"));
               return (
                 <button
                   key={link.path}
@@ -90,7 +90,7 @@ export default function Header({ currentPath, onNavigate, onToggleOffcanvas }: H
           {/* Right Action buttons */}
           <div className="flex items-center space-x-6">
             <button
-              onClick={() => onNavigate("/contact-2/")}
+              onClick={() => onNavigate("/contact/")}
               className="hidden sm:flex items-center space-x-2 py-3 px-6 bg-gradient-brand hover:bg-gradient-soft hover:text-primary-navy text-white text-base font-semibold rounded-xl shadow-md shadow-corporate-blue/10 hover:shadow-lg transition-all hover:-translate-y-0.5"
               id="header-quote-btn"
             >

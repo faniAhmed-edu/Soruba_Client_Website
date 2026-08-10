@@ -61,7 +61,7 @@ export default function App() {
     if (currentPath === "/blog" || currentPath === "/blog/") {
       return <BlogIndex onNavigate={navigateTo} />;
     }
-    if (currentPath === "/contact-2" || currentPath === "/contact-2/") {
+    if (currentPath === "/contact" || currentPath === "/contact/" || currentPath === "/contact-2" || currentPath === "/contact-2/") {
       return <Contact onNavigate={navigateTo} />;
     }
 

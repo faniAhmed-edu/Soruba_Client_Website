@@ -137,7 +137,7 @@ export default function ServiceDetail({ slug, onNavigate }: ServiceDetailProps) 
             Contact us today to coordinate a full vulnerability audit and map out a bulletproof strategy for your company.
           </p>
           <button
-            onClick={() => onNavigate("/contact-2/")}
+            onClick={() => onNavigate("/contact/")}
             className="py-2.5 px-6 bg-white hover:bg-light-blue text-primary-navy font-bold text-xs rounded-lg transition-all"
           >
             Schedule Free Evaluation

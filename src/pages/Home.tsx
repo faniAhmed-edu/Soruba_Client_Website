@@ -372,7 +372,7 @@ export default function Home({ onNavigate }: HomeProps) {
             <p className="text-xs text-white/70">Speak to our Oregon engineering architects today for a fast turnaround.</p>
           </div>
           <button
-            onClick={() => onNavigate("/contact-2/")}
+            onClick={() => onNavigate("/contact/")}
             className="py-3 px-6 bg-white hover:bg-light-blue text-primary-navy font-bold text-xs rounded-xl shadow-md transition-all shrink-0 cursor-pointer"
             id="services-strip-cta-btn"
           >
@@ -727,7 +727,7 @@ export default function Home({ onNavigate }: HomeProps) {
               Every organization faces a unique compliance and network footprint. Schedule an assessment to map your current vulnerability index.
             </p>
             <button
-              onClick={() => onNavigate("/contact-2/")}
+              onClick={() => onNavigate("/contact/")}
               className="text-xs font-bold text-corporate-blue hover:text-primary-navy flex items-center space-x-1"
             >
               <span>Schedule Free Review</span>
@@ -841,7 +841,7 @@ export default function Home({ onNavigate }: HomeProps) {
           </p>
           <div className="pt-2">
             <button
-              onClick={() => onNavigate("/contact-2/")}
+              onClick={() => onNavigate("/contact/")}
               className="py-3 px-8 bg-white hover:bg-light-blue text-primary-navy font-bold rounded-xl shadow-lg transition-all transform hover:-translate-y-0.5 cursor-pointer"
               id="bottom-banner-cta-btn"
             >

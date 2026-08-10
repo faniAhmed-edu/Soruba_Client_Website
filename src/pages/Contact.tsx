@@ -29,9 +29,12 @@ export default function Contact({ onNavigate }: { onNavigate: (path: string) => 
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleFormSubmit = (e: React.FormEvent) => {
+  const [successMessage, setSuccessMessage] = useState<string | null>(null);
+
+  const handleFormSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setValidationError(null);
+    setSuccessMessage(null);
 
     // Form Validation
     if (!formData.name || !formData.email || !formData.message) {
@@ -50,11 +53,39 @@ export default function Contact({ onNavigate }: { onNavigate: (path: string) => 
 
     setFormState("submitting");
 
-    // Simulate sending network request
-    setTimeout(() => {
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          message: formData.message,
+        }),
+      });
+
+      const responseText = await response.text();
+      let data: any = {};
+      try {
+        data = responseText ? JSON.parse(responseText) : {};
+      } catch {
+        data = { error: "Received invalid response from server." };
+      }
+
+      if (!response.ok) {
+        throw new Error(data.error || `Server responded with status ${response.status}`);
+      }
+
       setFormState("success");
+      setSuccessMessage(data.message || "Your inquiry has been successfully sent. Our team will contact you shortly.");
       setFormData({ name: "", email: "", message: "", captchaAnswer: "" });
-    }, 1500);
+      loadCaptchaEnginge(6);
+    } catch (err: any) {
+      setFormState("error");
+      setValidationError(err.message || "An unexpected error occurred. Please try again.");
+    }
   };
 
   return (
@@ -244,7 +275,7 @@ export default function Contact({ onNavigate }: { onNavigate: (path: string) => 
             {formState === "success" && (
               <div className="p-4 bg-emerald-50 border border-emerald-200 rounded-xl text-xs font-semibold text-emerald-600 flex items-start space-x-2">
                 <CheckCircle2 size={16} className="shrink-0 mt-0.5 animate-bounce" />
-                <span>Message submitted successfully! Our Oregon engineering group will reach out shortly.</span>
+                <span>{successMessage || "Your inquiry has been successfully sent. Our team will contact you shortly."}</span>
               </div>
             )}
 

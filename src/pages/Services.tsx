@@ -168,7 +168,7 @@ export default function Services({ onNavigate }: { onNavigate: (path: string) =>
               Learn More About {activeService.title}
             </button>
             <button
-              onClick={() => onNavigate("/contact-2/")}
+              onClick={() => onNavigate("/contact/")}
               className="text-xs font-bold text-corporate-blue hover:text-primary-navy flex items-center space-x-1"
             >
               <span>Request Quote</span>
@@ -227,7 +227,7 @@ export default function Services({ onNavigate }: { onNavigate: (path: string) =>
               </div>
               <div className="pt-8">
                 <button
-                  onClick={() => onNavigate("/contact-2/")}
+                  onClick={() => onNavigate("/contact/")}
                   className="w-full py-3 rounded-xl text-xs font-bold transition-all flex items-center justify-center space-x-2 cursor-pointer bg-light-bg hover:bg-soft-border text-primary-navy border border-soft-border"
                 >
                   <span>Get Started</span>
@@ -264,7 +264,7 @@ export default function Services({ onNavigate }: { onNavigate: (path: string) =>
               </div>
               <div className="pt-8">
                 <button
-                  onClick={() => onNavigate("/contact-2/")}
+                  onClick={() => onNavigate("/contact/")}
                   className="w-full py-3 rounded-xl text-xs font-bold transition-all flex items-center justify-center space-x-2 cursor-pointer bg-gradient-to-r from-corporate-blue to-sky-500 text-white shadow-md shadow-corporate-blue/20 hover:shadow-lg"
                 >
                   <span>Schedule Consultation</span>
@@ -298,7 +298,7 @@ export default function Services({ onNavigate }: { onNavigate: (path: string) =>
               </div>
               <div className="pt-8">
                 <button
-                  onClick={() => onNavigate("/contact-2/")}
+                  onClick={() => onNavigate("/contact/")}
                   className="w-full py-3 rounded-xl text-xs font-bold transition-all flex items-center justify-center space-x-2 cursor-pointer bg-light-bg hover:bg-soft-border text-primary-navy border border-soft-border"
                 >
                   <span>Talk to an Expert</span>
@@ -333,7 +333,7 @@ export default function Services({ onNavigate }: { onNavigate: (path: string) =>
               </div>
               <div className="pt-8 relative z-10">
                 <button
-                  onClick={() => onNavigate("/contact-2/")}
+                  onClick={() => onNavigate("/contact/")}
                   className="w-full py-3 rounded-xl text-xs font-bold transition-all flex items-center justify-center space-x-2 cursor-pointer bg-white text-primary-navy hover:bg-light-bg shadow-md"
                 >
                   <span>Request a Quote</span>
@@ -375,7 +375,7 @@ export default function Services({ onNavigate }: { onNavigate: (path: string) =>
             </div>
             <div className="text-center pt-2">
               <button
-                onClick={() => onNavigate("/contact-2/")}
+                onClick={() => onNavigate("/contact/")}
                 className="inline-flex items-center space-x-2 py-3 px-8 bg-gradient-to-r from-corporate-blue to-sky-500 text-white text-xs font-bold rounded-xl shadow-md hover:shadow-lg transition-all cursor-pointer"
               >
                 <span>Get a Custom Quote</span>

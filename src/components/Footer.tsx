@@ -47,7 +47,7 @@ export default function Footer({ onNavigate }: FooterProps) {
               { name: "Our Services", path: "/our-services/" },
               { name: "Industries", path: "/industries/" },
               { name: "Blog Feed", path: "/blog/" },
-              { name: "Contact Us", path: "/contact-2/" }
+              { name: "Contact Us", path: "/contact/" }
             ].map((link) => (
               <li key={link.name}>
                 <button
@@ -110,7 +110,7 @@ export default function Footer({ onNavigate }: FooterProps) {
           </div>
           <div className="pt-2">
             <button
-              onClick={() => onNavigate("/contact-2/")}
+              onClick={() => onNavigate("/contact/")}
               className="w-full flex items-center justify-center space-x-2 py-2.5 px-4 bg-gradient-brand text-white text-xs font-semibold rounded-lg shadow-md shadow-corporate-blue/10 hover:shadow-lg transition-all"
               id="footer-cta-btn"
             >
@@ -129,10 +129,10 @@ export default function Footer({ onNavigate }: FooterProps) {
           <span>Copyright © 2026 soruballc. All Rights Reserved.</span>
         </div>
         <div className="flex items-center space-x-6">
-          <button onClick={() => onNavigate("/contact-2/")} className="hover:text-corporate-blue transition-colors">
+          <button onClick={() => onNavigate("/contact/")} className="hover:text-corporate-blue transition-colors">
             Terms & Condition
           </button>
-          <button onClick={() => onNavigate("/contact-2/")} className="hover:text-corporate-blue transition-colors">
+          <button onClick={() => onNavigate("/contact/")} className="hover:text-corporate-blue transition-colors">
             Privacy Policy
           </button>
         </div>

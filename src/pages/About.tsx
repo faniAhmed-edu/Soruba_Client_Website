@@ -425,21 +425,21 @@ export default function About({ onNavigate }: AboutProps) {
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-6">
             <button
-              onClick={() => onNavigate("/contact-2/")}
+              onClick={() => onNavigate("/contact/")}
               className="w-full sm:w-auto py-4 px-10 bg-white text-primary-navy font-bold rounded-xl shadow-lg hover:shadow-white/20 hover:bg-light-bg transition-all flex items-center justify-center cursor-pointer"
             >
               <span>Get A Quote</span>
               <ArrowRight size={18} className="ml-2" />
             </button>
             <button
-              onClick={() => onNavigate("/contact-2/")}
+              onClick={() => onNavigate("/contact/")}
               className="w-full sm:w-auto py-4 px-10 bg-transparent text-white font-bold rounded-xl hover:bg-white/10 border border-white/40 transition-all flex items-center justify-center cursor-pointer shadow-sm"
             >
               <span>Contact Us</span>
             </button>
           </div>
           <button
-            onClick={() => onNavigate("/contact-2/")}
+            onClick={() => onNavigate("/contact/")}
             className="block w-full text-center text-sm text-white hover:text-white/70 transition-colors underline underline-offset-4 cursor-pointer mt-6"
           >
             Or schedule your complimentary IT & Security Risk Assessment

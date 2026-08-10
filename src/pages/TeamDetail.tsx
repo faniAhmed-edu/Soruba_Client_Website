@@ -149,7 +149,7 @@ export default function TeamDetail({ slug, onNavigate }: TeamDetailProps) {
               Schedule a technical roadmap call or request an infrastructure risk audit with {member.name}.
             </p>
             <button
-              onClick={() => onNavigate("/contact-2/")}
+              onClick={() => onNavigate("/contact/")}
               className="py-2.5 px-5 bg-white hover:bg-light-blue text-primary-navy font-bold text-xs rounded-lg transition-all"
             >
               Request Roadmap Call

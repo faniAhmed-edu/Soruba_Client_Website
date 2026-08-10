@@ -276,7 +276,7 @@ export function SidebarCTA({ onNavigate }: SidebarCTAProps) {
         </div>
       </div>
       <button
-        onClick={() => onNavigate("/contact-2/")}
+        onClick={() => onNavigate("/contact/")}
         className="w-full py-3 bg-white text-primary-navy rounded-xl text-xs font-bold hover:bg-light-blue transition-all shadow-md flex items-center justify-center space-x-2 cursor-pointer"
         id="sidebar-cta-call-btn"
       >

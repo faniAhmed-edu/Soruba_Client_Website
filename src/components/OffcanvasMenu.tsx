@@ -74,7 +74,7 @@ export default function OffcanvasMenu({ isOpen, onClose, onNavigate }: Offcanvas
                   { name: "Our Services", path: "/our-services/" },
                   { name: "Industries", path: "/industries/" },
                   { name: "Blog", path: "/blog/" },
-                  { name: "Contact Us", path: "/contact-2/" }
+                  { name: "Contact Us", path: "/contact/" }
                 ].map((link) => (
                   <button
                     key={link.path}
@@ -116,7 +116,7 @@ export default function OffcanvasMenu({ isOpen, onClose, onNavigate }: Offcanvas
             {/* Footer CTA */}
             <div className="mt-8 pt-6 border-t border-soft-border/50">
               <button
-                onClick={() => handleNav("/contact-2/")}
+                onClick={() => handleNav("/contact/")}
                 className="w-full py-3 bg-gradient-brand text-white rounded-xl font-medium shadow-md shadow-corporate-blue/10 hover:shadow-lg hover:shadow-corporate-blue/20 transition-all flex items-center justify-center space-x-2"
                 id="sidebar-cta-btn"
               >

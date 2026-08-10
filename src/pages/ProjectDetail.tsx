@@ -179,7 +179,7 @@ export default function ProjectDetail({ slug, onNavigate }: ProjectDetailProps) 
             Discuss your upcoming system integration, network security segmentation, or helpdesk rollout goals with our experts.
           </p>
           <button
-            onClick={() => onNavigate("/contact-2/")}
+            onClick={() => onNavigate("/contact/")}
             className="py-2.5 px-6 bg-white hover:bg-light-blue text-primary-navy font-bold text-xs rounded-lg transition-all"
           >
             Start Your Project

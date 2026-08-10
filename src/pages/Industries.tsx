@@ -186,7 +186,7 @@ export default function Industries({ onNavigate }: { onNavigate: (path: string) 
 
           <div className="pt-2 flex items-center justify-end">
             <button
-              onClick={() => onNavigate("/contact-2/")}
+              onClick={() => onNavigate("/contact/")}
               className="py-3 px-6 bg-gradient-brand text-white text-xs font-bold rounded-xl shadow-md hover:shadow-lg transition-all"
             >
               Get {activeInd.title} Compliance Quote

@@ -13,7 +13,11 @@ const apiFallbackPlugin = () => ({
     // are picked up immediately without needing to restart the long-running dev server.
     dotenv.config({ path: '.env.local', override: true });
 
-    server.middlewares.use('/api/chat', (req: any, res: any) => {
+    server.middlewares.use('/api', (req: any, res: any, next: any) => {
+      const url = req.url?.split('?')[0] || '';
+      const apiName = url.replace(/^\//, '').replace(/\/$/, '');
+      if (!apiName) return next();
+
       let body = '';
       req.on('data', (chunk: any) => {
         body += chunk.toString();
@@ -36,12 +40,12 @@ const apiFallbackPlugin = () => ({
         };
 
         try {
-          // Dynamically import the handler so it can be hot-reloaded
-          const handlerModule = await server.ssrLoadModule('/api/chat.js');
+          // Dynamically load the serverless API file from /api/[apiName].js
+          const handlerModule = await server.ssrLoadModule(`/api/${apiName}.js`);
           await handlerModule.default(req, res);
         } catch (err) {
-          console.error('API Error:', err);
-          res.status(500).json({ error: 'Internal Dev Server Error' });
+          console.error(`API Error on /api/${apiName}:`, err);
+          res.status(500).json({ error: `Server error executing /api/${apiName}` });
         }
       });
     });
