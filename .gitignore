@@ -10,7 +10,6 @@ coverage/
 .env
 .env.*
 !.env.example
-gh_token.txt
 
 # ── Editor / OS artifacts ──────────────────────────────────────────────────────
 .DS_Store

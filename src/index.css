@@ -1,44 +1,64 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
 
-* {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  
+  --color-primary-navy: #112C46;
+  --color-deep-blue: #1D4467;
+  --color-corporate-blue: #3E6195;
+  --color-medium-blue: #587CAA;
+  --color-soft-blue: #7599C6;
+  --color-light-blue: #AFCCEB;
+  --color-light-bg: #F6FAFF;
+  --color-soft-border: #DCEAF7;
+  --color-text-dark: #0F172A;
+  --color-muted-text: #64748B;
 }
 
-body {
-  margin: 0;
-  font-family: "Inter", system-ui, -apple-system, sans-serif;
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(135deg, #112C46 0%, #3E6195 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .bg-gradient-soft {
+    background: linear-gradient(180deg, #F6FAFF 0%, #EBF4FC 100%);
+  }
+  .bg-gradient-brand {
+    background: linear-gradient(135deg, #112C46 0%, #1D4467 50%, #3E6195 100%);
+  }
 }
 
+/* Custom scrollbar */
 ::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
+  width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: transparent;
+  background: #F6FAFF;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(30, 58, 95, 0.2);
-  border-radius: 3px;
+  background: #AFCCEB;
+  border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(30, 58, 95, 0.4);
+  background: #7599C6;
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(8px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-.animate-fadeIn {
-  animation: fadeIn 0.3s ease-out;
+/* Custom ticker marquee animation */
+@keyframes ticker {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }
 
-@keyframes slideIn {
-  from { opacity: 0; transform: translateX(-12px); }
-  to { opacity: 1; transform: translateX(0); }
+.animate-ticker {
+  display: flex;
+  width: max-content;
+  animation: ticker 40s linear infinite;
 }
-.animate-slideIn {
-  animation: slideIn 0.25s ease-out;
+
+.animate-ticker:hover {
+  animation-play-state: paused;
 }
+
